@@ -1,7 +1,7 @@
 # Aethon GPU Agent
 
 The Aethon GPU Agent is the hypervisor that runs on supplier machines in the
-[Aethon GPU marketplace](https://aethon.com). It monitors NVIDIA GPUs,
+[Aethon GPU marketplace]([https://aethon.com](https://aethon-website.vercel.app/)). It monitors NVIDIA GPUs,
 manages Ollama inference workloads, and communicates with the Aethon dispatch
 server.
 
