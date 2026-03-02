@@ -5,9 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-# ── Agent Binary ─────────────────────────────────────────────────────────────
-add_executable(agent src/main.cpp)
-
 # We do NOT link nvml.lib — the whole point is runtime dynamic loading.
 # We DO link winhttp.lib for the heartbeat client (Issue #6).
 if(WIN32)

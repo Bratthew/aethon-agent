@@ -1,3 +1,6 @@
+//SPDX-License-Identifier: BUSL-1.1
+// Copyright (c) 2026 Aethon Technologies LLC
+
 // Dynamic-loads nvml.dll at runtime so the binary never hard-depends on NVIDIA
 // drivers. On AMD / Intel-only machines, it emits an error JSON and keeps the process alive.
 
